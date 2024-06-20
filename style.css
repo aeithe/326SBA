@@ -40,21 +40,17 @@
       background-image: url("./images/bg-pattern-quotation.svg");
       background-repeat: no-repeat;
       background-position: top right 5rem;
-    }
-  }
+    } }
   .jonathan {
     .card {
       background-color: var(--very-dark-grayish-blue);
-    }
-  }
+    } }
   .patrick {
     .card {
       background-color: var(--very-dark-blackish-blue);
     }
   }
-  .daniel,
-  .jonathan,
-  .patrick {
+  .daniel, .jonathan, .patrick {
     h5 {
       color: var(--light-grayish-blue);
     }
@@ -67,9 +63,7 @@
     .card-quote {
       color: rgba(236, 242, 248, 0.7);
     }
-  }
-  .kira,
-  .jeanette {
+  } .kira, .jeanette {
     h5 {
       color: var(--very-dark-blackish-blue);
     }
