@@ -1,0 +1,92 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  html {
+    font-size: 13px;
+    
+  }
+  
+  body {
+    background-color: var(--light-grayish-blue);
+  }
+  
+  :root {
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .daniel {
+    .card {
+      background-color: var(--moderate-violet);
+      background-image: url("./images/bg-pattern-quotation.svg");
+      background-repeat: no-repeat;
+      background-position: top right 5rem;
+    }
+  }
+  .jonathan {
+    .card {
+      background-color: var(--very-dark-grayish-blue);
+    }
+  }
+  .patrick {
+    .card {
+      background-color: var(--very-dark-blackish-blue);
+    }
+  }
+  .daniel,
+  .jonathan,
+  .patrick {
+    h5 {
+      color: var(--light-grayish-blue);
+    }
+    h6 {
+      color: rgba(236, 242, 248, 0.5);
+    }
+    .card-text {
+      color: var(--white);
+    }
+    .card-quote {
+      color: rgba(236, 242, 248, 0.7);
+    }
+  }
+  .kira,
+  .jeanette {
+    h5 {
+      color: var(--very-dark-blackish-blue);
+    }
+    h6 {
+      color: rgba(25, 33, 46, 0.5);
+    }
+    .card-text {
+      color: var(--very-dark-blackish-blue);
+    }
+    .card-quote {
+      color: rgba(25, 33, 46, 0.7);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      background-position: top right 2rem;
+    }
+  }
+
